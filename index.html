@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" >
+    <title>bai1</title>
+</head>
+
+<style type="text/css">
+#div_tong{
+    width: 100%;
+    height: 1350px;
+}
+#div_tren{
+    width: 100%;
+    height: 10%;
+    border-bottom: 10px solid green;
+
+}
+#div_duoi{
+    width: 100%;
+    height: 90%;
+    border-top: 5px solid lightgray;
+}
+#div_tren > .trai {
+    width: 50%;
+    height: 100%;
+    float: left;;
+}
+#div_tren > .phai{
+    width: 50%;
+    height: 100%;
+    float: left; 
+}
+#div_tren > .phai >.tren{
+    width: 100%;
+    height: 85%;
+    text-align: right;   
+}
+#div_tren > .phai >.duoi{
+    width: 100%;
+    height: 15%;
+    text-align: right;   
+}
+#div_duoi>.trai {
+    width: 20%;
+    height: 100%;
+    background: lightgreen;
+    float: left;
+    border-right: 5px solid green;
+}
+#div_duoi>.giua{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+#div_duoi>.phai{
+    width: 19%;
+    height: 100%;
+    float: left;
+    border-left: 5px dotted green;
+}
+#div_duoi>.trai>.tren{
+    width: 100%;
+    height: 50%
+}
+#div_duoi>.trai>.duoi{
+    width: 100%;
+    height: 50%;
+    text-align: right;
+}
+#div_duoi>.giua>.tren>.trai{
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+#div_duoi>.giua>.tren>.giua{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+#div_duoi>.giua>.tren>.phai{
+    width: 35%; 
+    height: 50%;
+    float: left;
+}
+#div_duoi>.giua>.duoi>.phai{
+    width: 100%; 
+    height: 100%;
+    float: left;
+}
+#div_duoi>.phai>.tren{
+    background: lightgreen;
+    width: 100%;
+} 
+#div_duoi>.phai>.duoi{
+    width: 100%;
+    height: 100%;
+}
+a{
+    color: green;
+}
+#p3 ,h1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+</style>
+<body>
+<div id="div_tong">
+    <div id="div_tren">	
+        <div class="trai">
+            <img src="CSS\buổi 1+2\Bai 4.2 - Hoa Canh\images\logo.gif">
+        </div>
+        <div class="phai">
+            <div class="tren">
+                <form>
+                    <select>
+                         <option>Hội cây cảnh đắt tiền</option>
+                         <option>Hội cây cảnh nghèo tiền</option>
+                         <input type="button" value="GO">
+                    </select>
+               </form>
+            </div>
+            <div class="duoi">
+                <form>
+                    <thead>
+                        <tr>
+                            <a href="" >Hoa và cây cảnh</a>
+                        </tr>
+                        |
+                        <tr>
+                            <a href=""> Tin tức</a>
+                        </tr>
+                        |
+                        <tr>
+                            <a href="">Hộp Thư</a>
+                        </tr>
+                        |
+                        <tr>
+                            <a href="">Góc thư giãn</a>
+                        </tr>
+                    </thead>
+               </form>
+            </div>
+        </div>
+    </div>
+    <div id="div_duoi">
+        <div class="trai">
+            <div class="tren">
+                <img src="CSS\buổi 1+2\Bai 4.2 - Hoa Canh\images\tintuc_bientrai.gif">
+            </div>
+            <div class="duoi">
+                <img src="CSS\buổi 1+2\Bai 4.2 - Hoa Canh\images\Hoavang.gif">
+            </div>
+        </div>
+        <div class="giua">
+            <div class="tren">
+                <div class="trai">
+                    <img src="CSS\buổi 1+2\Bai 4.2 - Hoa Canh\images\mau.jpg">
+                    <br>
+                    <img src="CSS\buổi 1+2\Bai 4.2 - Hoa Canh\images\buom1.gif">
+                </div>
+                <div class="giua">
+                   <form><h1>Muôn Hoa đua sắc</h1>
+                    <p id="p3">
+                        Đã là hoa thì hoa nào cũng đẹp. Kể từ những đoá hoa dân dã giản dị bình thường. Hoa sim, hoa mua tím biếc sườn đồi. Hoa cà tím biếc vườn quê. Hoa lục bình tím biếc trên dòng sông. Hoa súng tím biếc ao làng. Hoa xoan tím biếc những chiều xóm vắng…. Hoa gạo đỏ đầu làng, hoa phượng đỏ trời góc phố. Hoa mào gà, hoa dong riềng đỏ góc vườn ai. Hoa cau, hoa dừa trắng phau lưng trời. Những loài hoa dân giả muôn màu muôn sắc cũng đẹp huống chi là các loài hoa quý phái.
+                    </p>
+                 </form>
+                </div>
+                <div class="phai">
+                    <img src="CSS\buổi 1+2\Bai 4.2 - Hoa Canh\images\buom4.gif">
+                </div>
+            </div>
+            <div class="duoi">
+                <div class="trai"></div>
+                <div class="phai">
+                    <p id="p3">     
+                        Một trong những loài hoa quý phái là hoa lan. "Vua thưởng lan, quan thưởng trà". Cái hương lan - " cái hương thuỷ quái gì mà mê đắm lòng người đến thế". Phong lan thơm sực nức, nồng nàn, gần gũi. Địa lan thanh cao, nhẹ nhõm, lúc thắm thiết, sực nức, lúc nhạt nhoà xa xăm. Đoá bạch ngọc khi nở có màu sáng như chiếc hài của thần vệ nữ tự ngày xưa.
+                    </p>
+                    <p id="p3">
+                        Hoa mai có nhiều loài. Từ ngũ đài hoa - năm cánh vàng rực rỡ đến hoàng tỉ trên 30 cánh. Hoa mai đẹp từ gốc đến cành, sống lâu bền, xếp vào hàng cổ thụ "lão mai độc thọ nhất chi vinh" (thơ cổ). Hoa mai không phô sắc hương mà khiêm tốn dịu dàng, tượng trưng cho cốt cách của người quân tử, chịu được cái giá rét của mùa đông để nở vào một sớm xuân hồng.
+                    </p>
+                    <p id="p3">
+                        Loài hao mang biểu tượng của mùa xuân là hoa đào. Những cánh hoa đào rưng rưng khoe sắc, màu hồng phơn phớt hay hồng đậm xen trong lá non như vẻ e ấp ngại ngùng như người thiếu nữ. Hoa đào như muôn cánh bướm hồng rung rinh trong gió, khoe sắc trong nắng xuân. 
+                    </p>
+                    <p id="p3">
+                        Hồng nhung đỏ thắm, hồng bạch trắng tinh. Hoa nhài như tuyết, hương thoảng nồng nàn bền bỉ chân quê.
+                    </p>
+                    <p id="p3">
+                        Hoa thược dược đỏ, vàng, trắng, tím đủ màu sắc. Hải đường hoa lựu đỏ rực. Hoa sen hồng ngan ngát đưa hương. Hoa đơn dân dã. Hoa sữa ngạt ngào khắp ngõ phố khuya.
+                    </p>
+                    <p id="p3">
+                        Hoa lúa, hoa ngô… không thơm ngào ngạt quý phái, nhưng thân thiết hương đồng gió nội, nuôi lớn đời ta, nuôi lớn hồn ta.
+                    </p>
+                    <p id="p3">
+                        Hoa. Cái màu trắng của hoa là màu trắng trong, tinh khiết. Màu hồng là tỏ tình êm ái. Màu vàng là kính trọng. Màu đỏ là thắng lợi. Màu xanh hy vọng. Màu tím thuỷ chung. Hoa là nhịp cầu tri ân nối con người với vũ trụ, là thông điệp giữa thế giới trần gian với bao la trời đất. Hoa. Đâu chỉ là hoa? Đó còn là "chùm thương nhớ, nụ yêu thương "(3) Hoa là biểu tượng của cái đẹp, biểu tượng của tình yêu, tình đất, tình người.
+                    </p>
+                    <p id="p3">
+                        Trên đời này, ta không thể sống thiếu hoa. Hế nhưng có một thứ trên tất cả các loài hoa, có một thứ là chúa tể các loài hoa, là"nữ hoàng của các loài hoa " _không phải là hoa _ chỉ mới là nụ thôi _ nhưng đẹp hơn, tươi hơn, quý hơn, ngát hương thơm hơn gấp mhiều lần bất cứ một loài hoa nào trên trái đất _ ấy là NỤ… CƯỜI!
+                        Ay là NỤ CƯỜI của con người, NỤ CƯỜI trên gươing mặt của mẹ cha ta, vợ con ta, anh em bè bạn ta, đồng chí đồng đội ta!
+                    </p>
+                    <p id="p3">
+                        "Trăm hoa đổi một nụ cười"
+                    </p>
+                    <p id="p3">
+                        Ta xin một đời hết lòng chăm chỉ trồng thật nhiều hoa, nâng niu hoa để đổi lấy những nụ cười thân thương ấy.
+                    </p>
+                    <p id="p3">
+                    <ol id="p3">
+                        <li>Phạm Đình Hổ -" Vũ trung - tùy bút"</li>
+                        <li>Thơ Chế Lan Viên</li>
+                        <li>Thơ Xuân Diệu</li>
+                        <li>Tục Ngữ Việt Nam</li>
+                    </ol>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="phai">
+            <div class="tren">
+                <form action="" align="center">
+                    <p align="center">
+                         <img width="100%" src="CSS\buổi 1+2\Bai 4.2 - Hoa Canh\images\thamgia.gif" alt="">
+                    </p>
+                    <p align="center">
+                        <label>Họ Tên</label>
+                    </p>
+                    <p align="center">
+                        <input type="text">
+                    </p>
+                    <p align="center">
+                       <label> Mã số</label>
+                    </p>
+                    <p align="center">
+                        <input type="text">
+                    </p>
+                    <p align="center">
+                        <img src="CSS\buổi 1+2\Bai 4.2 - Hoa Canh\images\ok.gif" alt="">  
+                    </p>
+                    <p align="center">
+                        <img width="100%" src="CSS\buổi 1+2\Bai 4.2 - Hoa Canh\images\quen.gif" alt="">
+                    </p>
+                </form>
+                </div>
+                <div class="duoi">
+                <p align="center">
+                    <img src="CSS\buổi 1+2\Bai 4.2 - Hoa Canh\images\h2.jpg" alt="">
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
